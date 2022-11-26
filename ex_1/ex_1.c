@@ -2,7 +2,7 @@
 int main(void)
 {
 	int arr[3] = { 1,2,3 };
-	int* p = arr;
+	int* p = arr; //배열은 배열자체가 주소라서 &안써도 됨
 	for (int i = 0; i < 3; i++)
 		printf("%d", arr[i]);
 	
